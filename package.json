@@ -1,0 +1,28 @@
+{
+  "name": "e-commence-backend",
+  "version": "0.0.1",
+  "description": "First Axia Africa Project",
+  "keywords": [
+    "Get",
+    "Update",
+    "Delete",
+    "Create"
+  ],
+  "license": "ISC",
+  "author": "FINEBOY, Rosemary Yole",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.8.3",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9"
+  }
+}
