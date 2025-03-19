@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const paystackSchema = new mongoose.schema({
+const paystackSchema = new mongoose.Schema({
   orderId: {
     type: String,
     required: true,

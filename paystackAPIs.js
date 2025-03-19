@@ -1,11 +1,12 @@
 const axios = require("axios");
+const config = require("./config");
 
-class paystackApi {
+class PaystackApi {
   constructor() {
     this.baseUrl = config.paystackUrl;
     this.headers = {
       "Content-Type": "application/json",
-      authorization: "Bearer ${config.paystackSecret}",
+      Authorization: `Bearer ${config.paystackSecret}`,
     };
   }
 
@@ -27,4 +28,4 @@ class paystackApi {
   }
 }
 
-module.exports = new paystackApi();
+module.exports = new PaystackApi();
