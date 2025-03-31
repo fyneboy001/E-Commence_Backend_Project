@@ -60,4 +60,5 @@ const loginUser = async (req, res) => {
     .status(200)
     .json(checkUser);
 };
+
 module.exports = { userSignup, loginUser };

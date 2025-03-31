@@ -3,6 +3,7 @@ const app = express();
 const mongoose = require("mongoose");
 const userRoute = require("./Route/userRoute");
 const cookieParser = require("cookie-parser");
+app.use(cookieParser());
 require("dotenv").config();
 //const orderRoute = require("./Route/orderRoute");
 app.use(express.json());
